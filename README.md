@@ -1,47 +1,18 @@
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-.container {
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-}
-
-.logo {
-    animation: logoFadeIn ease 3s;
-    width: 150px;
-}
-
-@keyframes logoFadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-
-.title {
-    animation: titleFadeIn ease 4s;
-    text-align: center;
-    font-weight: 300;
-    max-width: 500px;
-}
-
-@keyframes titleFadeIn {
-    0% {
-        opacity: 0;
-    }
-    15% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }  
-}
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RocketCode | Demo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+</head>
+<body class="container">
+    <a href="https://www.rocketcode.com.ar" target="_blank">
+        <img class="fade-in logo" src="assets/logo.svg" alt="">
+    </a>
+    <h1 class="title">Soy Francisco, y estoy deployando mi primer pagina web.</h1>
+</body>
+</html>
